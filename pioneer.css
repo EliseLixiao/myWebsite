@@ -12,6 +12,7 @@ a:visited{
 .heading{
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
 }
 .myName{
     font-family: 'Marker Felt', fantasy;
@@ -73,13 +74,15 @@ a:visited{
     padding-top: 50px;
 }
 
-
+.pioneerBody{
+    margin-left: 100px;
+}
 .pioneerHeading{
     display: flex;
 }
 .pioneerImage{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .pioneerTitle{
@@ -110,9 +113,8 @@ a:visited{
     margin-bottom: 50px;
 }
 .pioneerPic{
-    margin-left: 20px;
     position: absolute;
-    right: 100px;
+    right: 200px;
     top: -40px;
 }
 .pioneerExp{
@@ -153,7 +155,7 @@ a:visited{
 .bottomIcon{
     margin-top: 150px;
     display: flex;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 .fa-instagram{
