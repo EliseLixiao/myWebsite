@@ -12,6 +12,7 @@ a:visited{
 .heading{
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
 }
 .myName{
     font-family: 'Marker Felt', fantasy;
@@ -73,13 +74,15 @@ a:visited{
     padding-top: 50px;
 }
 
-
+.himcmBody{
+    margin-left: 100px;
+}
 .himcmHeading{
     display: flex;
 }
 .himcmImage{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 13px;
 }
 
@@ -136,7 +139,7 @@ a:visited{
 .problemBPic{
     bottom: 80px;
     position: absolute;
-    right: 5px;
+    right: 100px;
 }
 .modelsSummary{
     margin-left: 200px;
@@ -157,7 +160,7 @@ a:visited{
 .bottomIcon{
     margin-top: 150px;
     display: flex;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 .fa-instagram{
