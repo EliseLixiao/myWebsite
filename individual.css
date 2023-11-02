@@ -10,6 +10,7 @@ a:link{
 .heading{
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
 }
 .myName{
     font-family: 'Marker Felt', fantasy;
@@ -73,12 +74,17 @@ a:link{
 }
 
 
+.individualBody{
+    margin-left: 100px;
+}
+
+
 .individualHeading{
     display: flex;
 }
 .individualImage{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .individualTitle{
@@ -149,6 +155,7 @@ a:link{
 }
 .pptThumbnail{
     display: inline-block;
+    margin-right: 220px;
 }
 
 
@@ -161,7 +168,7 @@ a:link{
 .bottomIcon{
     margin-top: 150px;
     display: flex;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 .fa-instagram{
