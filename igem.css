@@ -12,6 +12,7 @@ a:visited{
 .heading{
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
 }
 .myName{
     font-family: 'Marker Felt', fantasy;
@@ -73,12 +74,16 @@ a:visited{
     padding-top: 50px;
 }
 
+.igemBody{
+    margin-left: 100px;
+}
+
 .igemHeading{
     display: flex;
 }
 .igemImage{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .igemTitle{
@@ -149,7 +154,7 @@ a:visited{
 .bottomIcon{
     margin-top: 150px;
     display: flex;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 .fa-instagram{
