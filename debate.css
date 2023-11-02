@@ -13,6 +13,7 @@ a:visited{
 .heading{
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
 }
 .myName{
     font-family: 'Marker Felt', fantasy;
@@ -74,12 +75,18 @@ a:visited{
     padding-top: 50px;
 }
 
+
+
+.debateBody{
+    margin-left: 100px;
+}
+
 .debateHeading{
     display: flex;
 }
 .debateImage{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 50px;
     object-fit: cover;
     object-position: top;
     height: 80px;
@@ -166,7 +173,7 @@ a:visited{
 .bottomIcon{
     margin-top: 150px;
     display: flex;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 .fa-instagram{
