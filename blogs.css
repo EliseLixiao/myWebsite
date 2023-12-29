@@ -1,0 +1,143 @@
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+
+}
+
+.myName{
+    font-family: 'Marker Felt', fantasy;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 410px;
+    display: inline-block;
+}
+
+
+.title{
+    display: flex;
+    padding-top:40px;
+}
+
+.titleFormat{
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+    font-family: 'Gill Sans', serif;
+    font-size:medium;
+}
+.titleFormat:hover{
+    opacity:0.6;
+}
+
+.blogTitle{
+    position: relative;
+    padding-bottom: 5px;
+    height: 50px;
+}
+
+.blogTitle:hover{
+    opacity: 0.6;
+}
+
+.icon{
+    display: flex;
+    padding-top: 50px;
+}
+
+.fa-instagram{
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 330px;
+    padding-top:13px;
+}
+.fa-instagram:hover{
+    opacity: 0.6;
+}
+.instagram{
+    position: relative;
+}
+
+.instagram:hover .instagramTip{
+    opacity: 0.4;
+}
+ .fa-envelope{
+    cursor: pointer;
+    margin-right: 8px;
+    padding-top:13px;
+ }
+ .fa-envelope:hover{
+    opacity: 0.6;
+}
+
+.gmail{
+    position: relative;
+}
+.gmailTip{
+    font-family: 'Gill Sans',serif;
+    font-size: 15px;
+}
+
+.gmail .gmailTip{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.45s;
+    pointer-events: none;
+}
+.gmail:hover .gmailTip{
+    opacity: 0.7;
+}
+
+
+.fa-comments{
+    cursor: pointer;
+    padding-top:13px;
+}
+.fa-comments:hover{
+    opacity: 0.6;
+}
+
+.wechat{
+    position: relative;
+}
+.wechatTip{
+    font-family: 'Gill Sans',serif;
+    font-size: 15px;
+}
+
+.wechat .wechatTip{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.45s;
+    pointer-events: none;
+}
+.wechat:hover .wechatTip{
+    opacity: 0.7;
+}
+
+
+
+.horizontalLine1{
+    width: 1200px;
+    opacity: 0.35;
+    margin-bottom: 50px;
+}
+
+
+
+.blogText{
+    padding-left: 250px;
+    padding-bottom: 30px;
+    width: 700px;
+    font-family: 'Gill Sans', serif;
+    margin-block: 5px;
+    font-size: 18px;
+}
+
